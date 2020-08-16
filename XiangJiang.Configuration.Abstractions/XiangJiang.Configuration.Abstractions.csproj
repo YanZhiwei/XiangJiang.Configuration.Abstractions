@@ -1,5 +1,4 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
@@ -11,17 +10,15 @@
     <Authors>YanZhiwei</Authors>
     <RepositoryUrl>https://github.com/YanZhiwei/XiangJiang.Configuration.Abstractions</RepositoryUrl>
     <PackageProjectUrl>https://github.com/YanZhiwei/XiangJiang.Configuration.Abstractions</PackageProjectUrl>
+    <Version>1.0.1</Version>
   </PropertyGroup>
-
   <ItemGroup>
     <None Include="..\.assets\nugetico.png">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
   </ItemGroup>
-
   <ItemGroup>
     <PackageReference Include="XiangJiang.Infrastructure.Abstractions" Version="1.0.1" />
   </ItemGroup>
-
 </Project>
